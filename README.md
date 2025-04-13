@@ -29,7 +29,7 @@ Welcome to my Python learning repository! As an app developer, I created this pr
 
 #### Phase 1: Python Fundamentals (2-4 weeks)
 - [x] Python installation and environment setup
-- [ ] Basic data types and variables
+- [x] Basic data types and variables
 - [ ] Control flow structures (conditionals, loops)
 - [ ] Function definition and usage
 - [ ] Modules and packages
@@ -150,7 +150,7 @@ If you're also interested in Python, AI, NLP, or quantitative trading, welcome t
 
 #### 第一阶段：Python基础 (2-4周)
 - [x] Python安装与环境搭建
-- [ ] 基本数据类型与变量
+- [x] 基本数据类型与变量
 - [ ] 控制流结构（条件语句、循环）
 - [ ] 函数定义与使用
 - [ ] 模块与包
