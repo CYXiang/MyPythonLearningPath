@@ -6,9 +6,17 @@ Python排序示例
 演示Python中不同的排序方法和算法
 """
 
+import sys
+
 def main():
     """主函数，演示各种排序方法"""
+    check_python_version()
     print("Python排序示例")
+    print("=" * 50)
+    
+    # 显示Python版本信息
+    print(f"当前Python版本: {sys.version}")
+    print(f"Python版本号: {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}")
     print("=" * 50)
     
     # 1. 使用内置的排序函数
@@ -134,5 +142,19 @@ def insertion_sort(arr):
     
     return arr
 
+def check_python_version():
+    """检查Python版本兼容性"""
+    if sys.version_info >= (3, 11):
+        print("✓ 您的Python版本支持此代码: Python 3.11或更高")
+    else:
+        print(f"⚠️ 警告: 当前Python版本为{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}")
+        print("  此代码最优兼容Python 3.11+，但可能在当前版本上正常工作")
+        print("  如需使用Python 3.11，请参考以下安装方法:")
+        print("  - macOS: brew install python@3.11")
+        print("  - Linux: 使用发行版特定的包管理器")
+        print("  - Windows: 从python.org下载安装包")
+        print("  或使用pyenv等工具管理多个Python版本")
+
 if __name__ == "__main__":
+    check_python_version()
     main()
